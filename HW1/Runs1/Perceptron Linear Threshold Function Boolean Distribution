@@ -1,0 +1,3984 @@
+[thinh.nguyen@Thinhs-MacBook-Pro ~]$:cd Documents/OneDrive/SJSU/CS256/HW/256/HW1/
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:python perceptron.py threshold perceptron threshold_func.txt bool 500 100 0.2
+Weights: [0.8962051309478474, 0.24905804508817542, 0.19272189824160535]
+Start training....
+
+Theta :  0
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 1: UPDATE theta:1 weight: [-0.10379486905215263, 0.24905804508817542, 0.19272189824160535]
+1, 0, 1, : 0: UPDATE theta:0 weight: [0.8962051309478474, 0.24905804508817542, 1.1927218982416052]
+0, 1, 0, : 1: UPDATE theta:1 weight: [0.8962051309478474, -0.7509419549118246, 1.1927218982416052]
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 0: UPDATE theta:0 weight: [0.8962051309478474, 0.24905804508817542, 2.1927218982416052]
+0, 1, 1, : 1: no update
+1, 1, 0, : 1: UPDATE theta:1 weight: [-0.10379486905215263, -0.7509419549118246, 2.1927218982416052]
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+Training completed!!!
+Theta after training: 1
+============== Start Testing =============
+
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+Average Error: 0.0
+Epsilon:  0.2
+TRAINING SUCCEEDED
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:python perceptron.py threshold perceptron threshold_func.txt bool 500 200 0.2
+Weights: [0.5205645492476791, 0.473045761477322, 0.7807147917245156]
+Start training....
+
+Theta :  0
+1, 0, 1, : 1: no update
+0, 1, 0, : 1: UPDATE theta:1 weight: [0.5205645492476791, -0.526954238522678, 0.7807147917245156]
+1, 1, 1, : 0: UPDATE theta:0 weight: [1.5205645492476791, 0.473045761477322, 1.7807147917245156]
+0, 0, 0, : 1: UPDATE theta:1 weight: [1.5205645492476791, 0.473045761477322, 1.7807147917245156]
+0, 1, 1, : 1: no update
+1, 1, 0, : 1: UPDATE theta:2 weight: [0.5205645492476791, -0.526954238522678, 1.7807147917245156]
+1, 1, 1, : 0: UPDATE theta:1 weight: [1.5205645492476791, 0.473045761477322, 2.780714791724516]
+1, 0, 0, : 1: UPDATE theta:2 weight: [0.5205645492476791, 0.473045761477322, 2.780714791724516]
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+Training completed!!!
+Theta after training: 2
+============== Start Testing =============
+
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+Average Error: 0.0
+Epsilon:  0.2
+TRAINING SUCCEEDED
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:python perceptron.py threshold perceptron threshold_func.txt bool 500 300 0.2
+Weights: [0.6238289305944944, 0.697021080809006, 0.9785309237031147]
+Start training....
+
+Theta :  0
+1, 0, 0, : 1: UPDATE theta:1 weight: [-0.3761710694055056, 0.697021080809006, 0.9785309237031147]
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 0: UPDATE theta:0 weight: [0.6238289305944944, 0.697021080809006, 1.9785309237031146]
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 1: UPDATE theta:1 weight: [0.6238289305944944, -0.30297891919099396, 1.9785309237031146]
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+Training completed!!!
+Theta after training: 1
+============== Start Testing =============
+
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+Average Error: 0.0
+Epsilon:  0.2
+TRAINING SUCCEEDED
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:python perceptron.py threshold perceptron threshold_func.txt bool 100 300 0.2
+Weights: [0.8183080994107014, 0.7352393453631831, 0.3703427525245634]
+Start training....
+
+Theta :  0
+1, 1, 1, : 1: no update
+0, 0, 0, : 1: UPDATE theta:1 weight: [0.8183080994107014, 0.7352393453631831, 0.3703427525245634]
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 0: UPDATE theta:0 weight: [0.8183080994107014, 0.7352393453631831, 1.3703427525245635]
+1, 1, 0, : 1: UPDATE theta:1 weight: [-0.18169190058929863, -0.26476065463681686, 1.3703427525245635]
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 0: UPDATE theta:0 weight: [0.8183080994107014, 0.7352393453631831, 2.3703427525245635]
+1, 0, 0, : 1: UPDATE theta:1 weight: [-0.18169190058929863, 0.7352393453631831, 2.3703427525245635]
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+Training completed!!!
+Theta after training: 1
+============== Start Testing =============
+
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+Average Error: 0.0
+Epsilon:  0.2
+TRAINING SUCCEEDED
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:python perceptron.py threshold perceptron threshold_func.txt bool 10 300 0.2
+Weights: [0.5927744013038928, 0.22812687232496143, 0.25324086998119766]
+Start training....
+
+Theta :  0
+0, 0, 1, : 1: no update
+1, 1, 0, : 1: UPDATE theta:1 weight: [-0.4072255986961072, -0.7718731276750386, 0.25324086998119766]
+1, 0, 0, : 0: no update
+1, 0, 1, : 0: UPDATE theta:0 weight: [0.5927744013038928, -0.7718731276750386, 1.2532408699811977]
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+Training completed!!!
+Theta after training: 0
+============== Start Testing =============
+
+1, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 1 : 1.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 1 : 1.0
+1, 0, 0, : 0 : 1 : 1.0
+Average Error: 0.24
+Epsilon:  0.2
+TRAINING FAILED
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:python perceptron.py threshold perceptron threshold_func.txt bool 1000 100 0.2
+Weights: [0.027181919795232212, 0.7990642387692819, 0.3396901174599207]
+Start training....
+
+Theta :  0
+1, 0, 0, : 1: UPDATE theta:1 weight: [-0.9728180802047678, 0.7990642387692819, 0.3396901174599207]
+1, 1, 0, : 0: no update
+0, 0, 1, : 0: UPDATE theta:0 weight: [-0.9728180802047678, 0.7990642387692819, 1.3396901174599207]
+0, 0, 0, : 1: UPDATE theta:1 weight: [-0.9728180802047678, 0.7990642387692819, 1.3396901174599207]
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 0: UPDATE theta:0 weight: [0.027181919795232212, 0.7990642387692819, 2.339690117459921]
+1, 1, 0, : 1: UPDATE theta:1 weight: [-0.9728180802047678, -0.2009357612307181, 2.339690117459921]
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 1, 0, : 0: no update
+0, 0, 0, : 0: no update
+0, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+1, 1, 0, : 0: no update
+0, 0, 1, : 1: no update
+0, 0, 1, : 1: no update
+1, 1, 0, : 0: no update
+1, 1, 0, : 0: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+1, 0, 0, : 0: no update
+1, 0, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 0, 0, : 0: no update
+0, 0, 0, : 0: no update
+1, 1, 1, : 1: no update
+0, 1, 0, : 0: no update
+1, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+0, 1, 1, : 1: no update
+1, 1, 0, : 0: no update
+0, 1, 1, : 1: no update
+1, 1, 1, : 1: no update
+Training completed!!!
+Theta after training: 1
+============== Start Testing =============
+
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+1, 1, 1, : 1 : 1 : 0.0
+1, 0, 1, : 1 : 1 : 0.0
+1, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 0, : 0 : 0 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 1, 1, : 1 : 1 : 0.0
+0, 0, 1, : 1 : 1 : 0.0
+1, 0, 0, : 0 : 0 : 0.0
+Average Error: 0.0
+Epsilon:  0.2
+TRAINING SUCCEEDED
+[thinh.nguyen@Thinhs-MacBook-Pro HW1]$:
