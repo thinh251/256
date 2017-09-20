@@ -27,24 +27,20 @@ if utils.validate_arguments(sys.argv):
     neuron.weights = [random.random() for i in range(n)]
     print "Weights:", neuron.weights
 
-    # Generate example data
-    example_features = utils.gen_vector(distribution, n, func_type)
-    print 'example feature i main', example_features
-
     print 'Start training....\n'
     for i in range(0, num_train):
-        # print "Features: ", example_features[i],
-        # print 'Output: ', example_outputs[i]
-        print 'Weight before training:', neuron.weights
-        neuron.train(example_features, training_alg, param, func_type, target, activation_method)
-        print 'Weight after trained:', neuron.weights, '\n'
+        # Generate example data
+        example_features = utils.gen_vector(distribution, n, func_type)
+        # print 'Weight before training:', neuron.weights
+        neuron.train(example_features, training_alg, param, func_type, float(target), activation_method)
+        # print 'Weight after trained:', neuron.weights, '\n'
     print 'Training completed!!!'
 
     print '============== Start Testing =============\n'
-    test_features = utils.gen_vector(distribution, n, func_type)
     sum_error = 0
     for i in range(0, num_test):
-        sum_error += neuron.test(test_features, param, func_type, target, activation_method)
+        test_features = utils.gen_vector(distribution, n, func_type)
+        sum_error += neuron.test(test_features, param, func_type, float(target), activation_method)
     average_error = sum_error / num_test
     print 'Average Error:', average_error
     print 'Epsilon: ', epsilon

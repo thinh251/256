@@ -36,7 +36,15 @@ class Neuron(object):
         params = map(int, params)
         for i in range(0, len(params)):
             sump += params[i] * ft[i]
-        return 1 if sump >= target else 0
+            # print 'Param: ', params[i], ' feature: ', ft[i], 'sump: ', sump
+
+        #print "Sump: ", sump, 'Target: ', target
+        if sump >= target:
+            #  print "Return 1 Sump: ", sump, 'Target: ', target
+            return 1
+        else:
+            return 0
+        # return 1 if sump >= target else 0
 
     # Activation function in NBF case
     def nested_boolean_func(self, expression, features):
@@ -72,6 +80,7 @@ class Neuron(object):
 
     def test(self, features, param, function_type, target, activation_method):
         guess = self.predict(features, param, function_type, target)
+        # print 'Guess: ', guess
         x = 0
         for f in range(0, len(features)):
             x += features[f] * self.weights[f]
@@ -112,8 +121,6 @@ class Neuron(object):
     def winnow_train(self, features, guess, activation_method):
         # On a false positive prediction, for all i, set wi := α ** −xi * wi
         x = 0
-        print 'weights ', self.weights
-        print  'feature ', features
         for f in range(0, len(features)):
             x += features[f] * self.weights[f]
         x = self.activation(x, activation_method)
