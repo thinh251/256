@@ -1,6 +1,6 @@
 import os
 import random
-import math
+
 
 def is_number(txt):
     try:

@@ -4,7 +4,7 @@ import utils
 
 from neuron import Neuron
 
-print 'Arguments list:', sys.argv
+# print 'Arguments list:', sys.argv
 
 if utils.validate_arguments(sys.argv):
     args = sys.argv
@@ -26,21 +26,34 @@ if utils.validate_arguments(sys.argv):
     # Generate random weights
     neuron.weights = [random.random() for i in range(n)]
     print "Weights:", neuron.weights
+    # Generate examples
+    example_features = []
+    for i in range(0, num_train):
+        vector = utils.gen_vector(distribution, n, func_type)
+        example_features.append(vector)
+    # print 'Example features:', example_features
 
     print 'Start training....\n'
-    for i in range(0, num_train):
+    for e in example_features:
         # Generate example data
-        example_features = utils.gen_vector(distribution, n, func_type)
+        # example_features = utils.gen_vector(distribution, n, func_type)
         # print 'Weight before training:', neuron.weights
-        neuron.train(example_features, training_alg, param, func_type, float(target), activation_method)
+        neuron.train(e, training_alg, param, func_type, float(target), activation_method)
         # print 'Weight after trained:', neuron.weights, '\n'
     print 'Training completed!!!'
+    print 'Theta after training:', neuron.theta
 
     print '============== Start Testing =============\n'
-    sum_error = 0
+    # Generate test data
+    test_features = []
     for i in range(0, num_test):
-        test_features = utils.gen_vector(distribution, n, func_type)
-        sum_error += neuron.test(test_features, param, func_type, float(target), activation_method)
+        vector = utils.gen_vector(distribution, n, func_type)
+        test_features.append(vector)
+    # print 'Test data:', test_features
+
+    sum_error = 0
+    for t in test_features:
+        sum_error += neuron.test(t, param, func_type, float(target), activation_method)
     average_error = sum_error / num_test
     print 'Average Error:', average_error
     print 'Epsilon: ', epsilon

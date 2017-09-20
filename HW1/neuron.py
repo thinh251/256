@@ -8,14 +8,14 @@ class Neuron(object):
 
     def __init__(self):
         super(Neuron, self).__init__()
-        self.features = None
+        # self.features = None
         # self.learningrate = 0.1
-        self.theta = 0      # Assume theta = 0 for perceptron update rule
-        self.alpha = 1.8    # Assume alpha > 0 for winnow update rule
-        self.weights = None  # The param use in threshold function
-        self.target = 0  # The target use in threshold function
-        self.expression = ''  # The expression used in NBF
-        self.features_num = 0  # Number of features
+        self.theta = 0          # Assume theta = 0 for perceptron update rule
+        self.alpha = 1.1        # Assume alpha > 0 for winnow update rule
+        self.weights = None     # The param use in threshold function
+        self.target = 0         # The target use in threshold function
+        self.expression = ''    # The expression used in NBF
+        self.features_num = 0   # Number of features
 
     def activation(self, x, activationmethod):
         if activationmethod == 'threshold':
@@ -23,7 +23,7 @@ class Neuron(object):
         elif activationmethod == 'relu':
             return max(0, x - self.theta)
         elif activationmethod == 'tanh':
-            return 1/2 + 1/2*(math.tanh((x-self.theta)/2))
+            return 1/2 + 1/2*(math.tanh((x - self.theta)/2))
 
     # Activation function with threshold, params and target is parsed from ground_file
     # For example:
@@ -37,8 +37,7 @@ class Neuron(object):
         for i in range(0, len(params)):
             sump += params[i] * ft[i]
             # print 'Param: ', params[i], ' feature: ', ft[i], 'sump: ', sump
-
-        #print "Sump: ", sump, 'Target: ', target
+        # print "Sump: ", sump, 'Target: ', target
         if sump >= target:
             #  print "Return 1 Sump: ", sump, 'Target: ', target
             return 1
@@ -59,6 +58,7 @@ class Neuron(object):
 
     def predict(self, features, param, function_type, target):
         # Predict by threshold function
+        guess = 0
         if function_type == 'TF':
             # params and target is initialized when parsing the ground_file
             guess = self.threshold_func(param, features, target)
@@ -69,8 +69,7 @@ class Neuron(object):
 
     def train(self, features, train_alg, param, function_type, target, activation_method):
         guess = self.predict(features, param, function_type, target)
-
-        # Calculate the real output
+        # Calculate the actual output depend on training algorithm
         if train_alg == Neuron.PERCEPTRON_ALG:
             self.perceptron_train(features, guess, activation_method)
         elif train_alg == Neuron.WINNOW_ALG:
@@ -81,62 +80,73 @@ class Neuron(object):
     def test(self, features, param, function_type, target, activation_method):
         guess = self.predict(features, param, function_type, target)
         # print 'Guess: ', guess
-        x = 0
+        actual_output = 0
         for f in range(0, len(features)):
-            x += features[f] * self.weights[f]
-        error = math.fabs(x - guess)
+            actual_output += features[f] * self.weights[f]
+
+        actual_output = self.activation(actual_output, activation_method)
+        # print 'Output in test:', x
+        error = math.fabs(guess - actual_output)
         txt = ''
         for t in range(0, len(features)):
             txt += str(features[t]) + ", "
-        txt += ": " + str(guess) + " : " + str(x) + " : " + str(error)
+        txt += ": " + str(guess) + " : " + str(actual_output) + " : " + str(error)
         print txt
         return error
 
     def perceptron_train(self, features, guess, activation_method):
-        # False positive prediction, set w = w - x and set theta = theta + 1
-        x = 0
+        # Calculate the actual output
+        actual_output = 0
         for f in range(0, len(features)):
-            x += features[f] * self.weights[f]
-        x = self.activation(x, activation_method)
+            actual_output += features[f] * self.weights[f]
+        # Apply the activation function to the output
+        actual_output = self.activation(actual_output, activation_method)
         txt = ""
-        if x > 0 and x != guess:
+        # False positive prediction, set w = w - x and set theta = theta + 1
+        if actual_output >= self.theta and actual_output != guess:
             for i in range(0, len(self.weights)):
                 self.weights[i] = self.weights[i] - features[i]
-                self.theta += 1
                 txt += str(features[i]) + ", "
-            txt += ": " + str(x) + ": UPDATE"
+            self.theta += 1
+            txt += ": " + str(actual_output) + ": UPDATE" + " theta:" + str(self.theta) + " weight: " + str(self.weights)
         # False negative prediction, set w = w + x and set theta = theta -1
-        elif x < 0 and x != guess:
+        elif actual_output < self.theta and actual_output != guess:
             for j in range(0, len(self.weights)):
                 self.weights[j] = self.weights[j] + features[j]
-                self.theta -= 1
                 txt += str(features[j]) + ", "
-            txt += ": " + str(x) + ": UPDATE"
-        elif x == guess:
+            self.theta -= 1
+            txt += ": " + str(actual_output) + ": UPDATE" + " theta:" + str(self.theta) + " weight: " + str(self.weights)
+        elif actual_output == guess:
             for k in range(0, len(self.weights)):
                 txt += str(features[k]) + ", "
-            txt += ": " + str(x) + ": no update"
+            txt += ": " + str(actual_output) + ": no update"
         print txt
 
     def winnow_train(self, features, guess, activation_method):
-        # On a false positive prediction, for all i, set wi := α ** −xi * wi
-        x = 0
+        # Calculate the actual output
+        sum_dot_product = 0
         for f in range(0, len(features)):
-            x += features[f] * self.weights[f]
-        x = self.activation(x, activation_method)
+            sum_dot_product += features[f] * self.weights[f]
+        # Apply the activation function to the output
+        sum_dot_product = self.activation(sum_dot_product, activation_method)
         txt = ""
-        if x > 0 and x != guess:
+        # On a false positive prediction, for all i, set wi := α ** −xi * wi
+        if sum_dot_product >= self.theta and sum_dot_product != guess:
             for i in range(0, len(self.weights)):
-                self.weights[i] = (self.alpha ** (-int(features[i]))) * self.weights[i]
-            txt += ": " + str(x) + ": UPDATE"
+                self.weights[i] = ((self.alpha ** (-int(features[i]))) * self.weights[i])
+                txt += str(features[i]) + ", "
+            txt += ": " + str(sum_dot_product) + ": UPDATE" + " theta:" + str(self.theta) \
+                   + " weight: " + str(self.weights)
         # On a false negative prediction, for all i, set wi := α ** xi * wi
-        elif x < 0 and x != guess:
+        elif sum_dot_product < self.theta and sum_dot_product != guess:
             for i in range(0, len(self.weights)):
-                
-                self.weights[i] = (self.alpha ** features[i]) * self.weights[i]
-            txt += ": " + str(x) + ": UPDATE"
-        elif x == guess:
+                self.weights[i] = ((self.alpha ** int(features[i])) * self.weights[i])
+                txt += str(features[i]) + ", "
+            txt += ": " + str(sum_dot_product) + ": UPDATE" + " theta:" + str(self.theta) \
+                   + " weight: " + str(self.weights)
+        # The prediction is correct, do nothing just print out the message
+        elif sum_dot_product == guess:
             for k in range(0, len(self.weights)):
                 txt += str(features[k]) + ", "
-            txt += ": " + str(x) + ": no update"
+            txt += ": " + str(sum_dot_product) + ": no update"
         print txt
