@@ -1,3 +1,4 @@
+import random
 import sys
 import utils
 
@@ -16,21 +17,24 @@ if utils.validate_arguments(sys.argv):
     epsilon = float(args[7])
     neuron = Perception()
 
-    t, p, n = utils.parse_ground_file(ground_file_name)
-    # Load the weight, target, and number of feature from ground file (this is for threshold function case)
+    function_type, target, param, n = utils.parse_ground_file(ground_file_name)
+    # Load the target, and number of feature from ground file (this is for threshold function case)
     neuron.target = float(t)
-    neuron.weights = [float(f) for f in p]
     neuron.features_num = int(n)
 
+    # Generate random weights
+    neuron.weights = [random.random(0, 1) for i in range(n)]
     print "Weights:", neuron.weights
-    example_features, example_outputs = utils.generate_example(distribution, num_train, neuron.features_num)
+
+    # Generate example data
+    example_features = utils.generate_vector(distribution, num_train)
 
     print 'Start training....\n'
     for i in range(0, num_train):
         # print "Features: ", example_features[i],
         # print 'Output: ', example_outputs[i]
         print 'Weight before training:', neuron.weights
-        neuron.train(example_features[i], example_outputs[i], Perception.PERCEPTRON_ALG)
+        neuron.train(example_features[i], training_alg, function_type)
         print 'Weight after trained:', neuron.weights, '\n'
     print 'Training completed!!!'
 

@@ -10,7 +10,7 @@ class Perception(object):
         super(Perception, self).__init__()
         self.features = None
         # self.learningrate = 0.1
-        self.theta = 0
+        self.theta = 0      # Assume theta = 0 for perceptron update rule
         self.weights = None  # The param use in threshold function
         self.target = 0  # The target use in threshold function
         self.expression = ''  # The expression used in NBF
@@ -31,7 +31,7 @@ class Perception(object):
     #   +10 -5 +30      //this is params
     # f(x) = 1 iff 10x1 - 5x2 + 30x3 >= 15
     @staticmethod
-    def threshold_func(params, ft, target):
+    def threshold_func(self, params, ft, target):
         sump = 0
         for i in range(0, len(params)):
             sump += params[i] * ft[i]
@@ -45,9 +45,9 @@ class Perception(object):
         # TODO:
         return 1
 
-    def predict(self, features, activation):
+    def predict(self, features, function_type):
         # Predict by threshold function
-        if activation == 1:
+        if function_type == 'TF':
             # params and target is initialized when parsing the ground_file
             guess = self.threshold_func(self.weights, features, self.target)
         # Predict by nested boolean function
@@ -57,12 +57,13 @@ class Perception(object):
 
         return guess
 
-    def train(self, features, target, train_alg):
+    def train(self, features, train_alg, function_type):
         # TODO: Assume that threshold function is used, I'm not very clear for tha activation step
-        guess = self.predict(features, 1)
-        error = target - guess
+        guess = self.predict(features, function_type)
+
+        # Calculate the real output
         if train_alg == Perception.PERCEPTRON_ALG:
-            self.perceptron_train(features, target, error)
+            self.perceptron_train(features, guess)
         elif train_alg == Perception.WINNOW_ALG:
             self.winnow_train(error)
         else:
@@ -79,17 +80,20 @@ class Perception(object):
         print txt
         return error
 
-    def perceptron_train(self, features, target, error):
+    def perceptron_train(self, features, guess):
         # False positive prediction, set w = w - x and set theta = theta + 1
+        x = 0
+        for f in range(0, len(features)):
+            x += features[f] * self.weights[f]
         txt = ""
-        if error > 0:
+        if x > 0 and x != guess:
             for i in range(0, len(self.weights)):
                 self.weights[i] = self.weights[i] - features[i]
                 self.theta += 1
                 txt += str(features[i]) + ", "
             txt += ": " + str(target) + ": UPDATE"
         # False negative prediction, set w = w + x and set theta = theta -1
-        elif error < 0:
+        elif x < 0 and x != guess:
             for j in range(0, len(self.weights)):
                 self.weights[j] = self.weights[j] + features[j]
                 self.theta -= 1
