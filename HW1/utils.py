@@ -58,18 +58,21 @@ def validate_arguments(arguments):
     # All the test passed
     return True
 
-
-def generate_example(distribution, number_of_train, number_of_feature):
-    if distribution == 'bool':
-        inputs = [[random.randint(0, 1) for i in range(number_of_feature)] for j in range(number_of_train)]
-        output = [random.randint(0, 1) for i in range(number_of_train)]
-        # print 'Feature from generate example function:', features
-        return inputs, output
-    else:
-        inputs = [[random.random() for i in range(number_of_train)] for j in range(number_of_feature)]
-        output = [random.random() for i in range(number_of_train)]
-        return inputs, output
-
+def gen_vector(distribution, n):
+    vector = []
+    if distribution == "bool"
+        for i in range(n):
+            bit = random.randint(0, 1)
+            vector.append(bit)
+        return vector
+    elif distribution == "sphere"
+        norm = 0
+        for i in range(n):
+            bit = random.randint()
+            norm += bit^2
+            vector.append(bit)
+        norm = norm^(1/2)
+        return vector/norm
 
 def generate_test(number_of_test, number_of_feature):
     inputs = [[random.randint(0, 1) for i in range(number_of_feature)] for j in range(number_of_test)]
