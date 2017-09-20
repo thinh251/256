@@ -15,36 +15,36 @@ if utils.validate_arguments(sys.argv):
     num_train = int(args[5])
     num_test = int(args[6])
     epsilon = float(args[7])
+
     neuron = Perception()
 
-    function_type, target, param, n = utils.parse_ground_file(ground_file_name)
+    param, n, func_type, target = utils.parse_ground_file(ground_file_name)
     # Load the target, and number of feature from ground file (this is for threshold function case)
-    neuron.target = float(t)
+    neuron.target = float(target)
     neuron.features_num = int(n)
 
     # Generate random weights
-    neuron.weights = [random.random(0, 1) for i in range(n)]
+    neuron.weights = [random.random() for i in range(n)]
     print "Weights:", neuron.weights
 
     # Generate example data
-    example_features = utils.generate_vector(distribution, num_train)
+    example_features = utils.gen_vector(distribution, n, func_type)
+    print 'example feature i main', example_features
 
     print 'Start training....\n'
     for i in range(0, num_train):
         # print "Features: ", example_features[i],
         # print 'Output: ', example_outputs[i]
         print 'Weight before training:', neuron.weights
-        neuron.train(example_features[i], training_alg, function_type)
+        neuron.train(example_features, training_alg, param, func_type, target, activation_method)
         print 'Weight after trained:', neuron.weights, '\n'
     print 'Training completed!!!'
 
     print '============== Start Testing =============\n'
-    test_features, test_outputs = utils.generate_test(num_test, neuron.features_num)
+    test_features = utils.gen_vector(distribution, n, func_type)
     sum_error = 0
     for i in range(0, num_test):
-        sum_error += neuron.test(test_features[i], test_outputs[i])
-
-    # TODO: double check with group mate whether it's divided by number of tests or number of failed tests
+        sum_error += neuron.test(test_features, param, func_type, target, activation_method)
     average_error = sum_error / num_test
     print 'Average Error:', average_error
     print 'Epsilon: ', epsilon

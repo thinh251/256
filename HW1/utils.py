@@ -1,6 +1,6 @@
 import os
 import random
-
+import math
 
 def is_number(txt):
     try:
@@ -19,13 +19,18 @@ def parse_ground_file(ground_file):
     func_type = gfile.readline().strip()
     if func_type == "NBF":
         expression = gfile.readline()
-        nf = len(expression.split(" ")) / 2  # n is needed to figure out the number of features
-        return [expression, nf]
+        token = expression.split(" ")
+        x = []
+        for t in token:
+            if is_number(t) :
+                x.append(int(t))
+        n = max(x)
+        return [expression.lower(), n, func_type, 0]
     elif func_type == "TF":
         target = gfile.readline()
-        params = gfile.readline().split(" ")
-        nf = len(params)  # n is needed to figure out the number of features
-        return [target, params, nf]
+        param = gfile.readline().split(" ")
+        n = len(param)  # n is needed to figure out the number of features
+        return [param, n, func_type, target]
     else:
         print "NOT PARSEABLE"
         exit()
@@ -58,24 +63,26 @@ def validate_arguments(arguments):
     # All the test passed
     return True
 
-def gen_vector(distribution, n):
+def gen_vector(distribution, n, func_type):
     vector = []
-    if distribution == "bool":
-        for i in range(n):
+    if distribution == "bool" or func_type == "NBF":
+        for i in range(0, n):
             bit = random.randint(0, 1)
             vector.append(bit)
         return vector
-    elif distribution == "sphere":
+    elif distribution == "sphere" and func_type == "TF":
         norm = 0
-        for i in range(n):
-            bit = random.randint()
-            norm += bit^2
+        for i in range(0, n):
+            bit = random.random()
+            norm += bit**2
             vector.append(bit)
-        norm = norm^(1/2)
-        return vector/norm
+        norm = norm**(1/2)
+        for i in range(len(vector)):
+            vector[i] = vector[i]/norm
+        print ' vector in gen', vector
+        return vector
 
 def generate_test(number_of_test, number_of_feature):
     inputs = [[random.randint(0, 1) for i in range(number_of_feature)] for j in range(number_of_test)]
-    output = [random.randint(0, 1) for i in range(number_of_test)]
     # print 'Feature from generate example function:', features
-    return inputs, output
+    return inputs
