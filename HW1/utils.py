@@ -60,12 +60,12 @@ def validate_arguments(arguments):
 
 def gen_vector(distribution, n):
     vector = []
-    if distribution == "bool"
+    if distribution == "bool":
         for i in range(n):
             bit = random.randint(0, 1)
             vector.append(bit)
         return vector
-    elif distribution == "sphere"
+    elif distribution == "sphere":
         norm = 0
         for i in range(n):
             bit = random.randint()
