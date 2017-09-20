@@ -33,7 +33,13 @@ if utils.validate_arguments(sys.argv):
         example_features.append(vector)
     # print 'Example features:', example_features
 
+    if training_alg == Neuron.PERCEPTRON_ALG:
+        neuron.theta = 0
+    elif training_alg == Neuron.WINNOW_ALG:
+        neuron.theta = 0.5
+
     print 'Start training....\n'
+    print 'Theta : ', neuron.theta
     for e in example_features:
         # Generate example data
         # example_features = utils.gen_vector(distribution, n, func_type)
@@ -54,7 +60,7 @@ if utils.validate_arguments(sys.argv):
     sum_error = 0
     for t in test_features:
         sum_error += neuron.test(t, param, func_type, float(target), activation_method)
-    average_error = sum_error / num_test
+    average_error = float(sum_error) / num_test
     print 'Average Error:', average_error
     print 'Epsilon: ', epsilon
     if average_error <= epsilon:
