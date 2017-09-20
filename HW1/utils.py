@@ -35,7 +35,7 @@ def validate_arguments(arguments):
     if len(arguments) < 8:
         print ('Missing arguments')
         return False
-    if arguments[1] != 'relu' and arguments != 'tanh' and arguments != 'threshold':
+    if arguments[1] != 'relu' and arguments[1] != 'tanh' and arguments[1] != 'threshold':
         print ('Activation type is not supported')
         return False
     if arguments[2] != 'perceptron' and arguments[2] != 'winnow':

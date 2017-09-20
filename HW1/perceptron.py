@@ -22,7 +22,7 @@ class Perception(object):
         elif activationmethod == 'relu':
             return max(0, self.theta)
         elif activationmethod == 'tanh':
-            return 1 / (1 + (math.e ** -x))
+            return 1/2 +  1/2*(math.tanh((x-self.theta)/2)
 
     # Activation function with threshold, params and target is parsed from ground_file
     # For example:
